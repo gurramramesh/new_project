@@ -15,27 +15,39 @@ class vechile
 
 };
 
-class fourwheeler
+class twowheeler:public vechile
 {
 
         public:
-                fourwheeler()
+                twowheeler()
                 {
-                        std::cout<<"this is 4 wheeler"<<endl;
+                        std::cout<<"this is 2 wheeler"<<endl;
                 }
                 void display()
                 {
                         std::cout<<"this is vechile class"<<endl;
                 }
 
-
-};
+class fourwheeler:public vechile
+{
+	public:
+		fourwheeler()
+		{
+			std::cout<<"this is 4 wheeler"<<endl;
+		}
+		void display()
+		{
+			std::cout<<"this is vechile class"<<endl;
+		}
+}k;
 
 int main()
 {
 vechile v1;
 fourwheeler f1;
+twowheeler t1;
 
+t1.display();
 f1.dispaly();
 
 return 0;
