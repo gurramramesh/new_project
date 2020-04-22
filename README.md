@@ -1,4 +1,6 @@
-# new_project
+#include<iostream>
+using namespacce std;
+
 class vechile
 {
         public:
@@ -6,7 +8,7 @@ class vechile
                 {
                 std::cout<<"this is vehicle"<<endl;
                 }
-                void display()
+      virtual   void display()
                 {
                         std::cout<<"this is vechile class"<<endl;
                 }
@@ -28,3 +30,13 @@ class fourwheeler
 
 
 };
+
+int main()
+{
+vechile v1;
+fourwheeler f1;
+
+f1.dispaly();
+
+return 0;
+}
