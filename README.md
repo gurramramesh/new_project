@@ -28,7 +28,7 @@ class twowheeler:public vechile
                         std::cout<<"this is vechile class"<<endl;
                 }
 
-class fourwheeler:public vechile
+class fourwheeler:private vechile
 {
 	public:
 		fourwheeler()
@@ -39,7 +39,7 @@ class fourwheeler:public vechile
 		{
 			std::cout<<"this is vechile class"<<endl;
 		}
-}k;
+};
 
 int main()
 {
