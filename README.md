@@ -41,6 +41,19 @@ class fourwheeler:private vechile
 		}
 };
 
+class eightwheeler:public vechile
+{
+	public:
+		eightwheeler()
+		{
+			std::cout<<"this is 8 wheeler"<<endl;
+		}
+		void display()
+		{
+			std::cout<<"this is vechile from public class:"<<endl;
+		}
+};
+
 int main()
 {
 vechile v1;
