@@ -63,7 +63,7 @@ fourwheeler f1;
 twowheeler t1;
 eightwheeler e1;
 
-v1.display();
+v1.display(); //base class function
 t1.display();
 f1.dispaly();
 e1.display();
