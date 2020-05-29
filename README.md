@@ -56,14 +56,17 @@ class eightwheeler:public vechile
 
 int main()
 {
+
 vechile v1;
 
 fourwheeler f1;
 twowheeler t1;
+eightwheeler e1;
 
 v1.display();
 t1.display();
 f1.dispaly();
+e1.display();
 
 return 0;
 }
